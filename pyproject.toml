@@ -3,14 +3,11 @@ name = ""
 version = ""
 description = ""
 authors = [
-    {name = "Sparrow", email = "."},
+    {name = "Sparrow", email = "benthorpe.dev@gmail.com"},
 ]
-dependencies = [
-    "fastapi>=0.103.1",
-    "uvicorn[standard]>=0.23.2",
-]
+dependencies = []
 [tool.pdm.scripts]
-start = "uvicorn main:app --reload"
+dev = "uvicorn main:app --reload"
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
